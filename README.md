@@ -82,5 +82,5 @@ example:
 ## Notes 
 
 * the files are uploaded localy in cvs file , i could uploaded to s3 bucket but puting aws credentials in public repository are not safe todo.
-* the /download/<userid> request can be invoked with postman.
+* the /download/userid request can be invoked with postman.
 
