@@ -76,8 +76,11 @@ example:
 *[GET] http://127.0.0.1:5000/
 *[GET] http://127.0.0.1:5000/admin
 ```
+Admin:
 ![alt text](https://github.com/AshrafAlroomi/liwwa/blob/main/admin.jpg?raw=true)
 
+Regiser:
+![alt text](https://github.com/AshrafAlroomi/liwwa/blob/main/register.jpg?raw=true)
 
 ## Notes 
 
