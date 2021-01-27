@@ -76,7 +76,7 @@ example:
 *[GET] http://127.0.0.1:5000/
 *[GET] http://127.0.0.1:5000/admin
 ```
-
+![alt text](https://github.com/AshrafAlroomi/liwwa/blob/main/admin.jpg?raw=true)
 
 
 ## Notes 
