@@ -37,7 +37,7 @@ database_password ="root"
 example:
 ```
 *[POST] http://127.0.0.1:5000/api/registration 
-request body -- > {"name":"ashrf s alroomi" , "birth_date":"8-15-1996" ,"year_of_exp":5 ,"dep":it }
+request body -- > {"name":"ashrf s alroomi" , "birth_date":"8-15-1996" ,"year_of_exp":5 ,"dep":it , "cv":file }
 response --> {"success":True}
 
 
@@ -77,4 +77,10 @@ example:
 *[GET] http://127.0.0.1:5000/admin
 ```
 
+
+
+## Notes 
+
+1- the files are uploaded localy in cvs file , i could uploaded to s3 bucket but puting aws credentials in public repository are not safe todo.
+2- the /download/<userid> request can be invoked with postman.
 
