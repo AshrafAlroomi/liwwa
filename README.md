@@ -1,6 +1,6 @@
-# Liwwa Assemnt
+# Liwwa Assessment
 
-simple flask api/webapplication 
+simple flask api/webapp 
 
 ## Getting Started
 
