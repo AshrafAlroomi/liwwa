@@ -36,13 +36,13 @@ database_password ="root"
 ### API
 example:
 ```
-[POST] http://127.0.0.1:5000/api/registration 
+*[POST] http://127.0.0.1:5000/api/registration 
 request body -- > {"name":"ashrf s alroomi" , "birth_date":"8-15-1996" ,"year_of_exp":5 ,"dep":it }
 response --> {"success":True}
 
 
 
-[GET]  http://127.0.0.1:5000/api/admin?skip=1&limit=5
+*[GET]  http://127.0.0.1:5000/api/admin?skip=1&limit=5
 request args -- > skip = 0 , limit = 2
 request header --> {.. , "X-ADMIN":1}
 response --> {
@@ -64,7 +64,7 @@ response --> {
 
 
 
-[GET]  http://127.0.0.1:5000/api/download/6
+*[GET]  http://127.0.0.1:5000/api/download/6
 request header --> {.. , "X-ADMIN":1}
 response --> file
 
@@ -73,8 +73,8 @@ response --> file
 ### Website
 example:
 ```
-http://127.0.0.1:5000/
-http://127.0.0.1:5000/admin
+*[GET] http://127.0.0.1:5000/
+*[GET] http://127.0.0.1:5000/admin
 ```
 
 
